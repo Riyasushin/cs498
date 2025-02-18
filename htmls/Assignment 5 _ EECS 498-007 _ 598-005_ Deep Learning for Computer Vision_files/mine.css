@@ -1,0 +1,96 @@
+.my-header {
+  border-top: 5px solid #37536E;
+  border-bottom: 2px solid #989c97;
+  background-color: #00274c;
+  text-align: center;
+}
+
+.my-header .my-title {
+}
+
+.my-header .site-title {
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffcb05;
+  float: none;
+}
+
+.my-header .my-subtitle {
+  color: #e4e1df;
+  line-height: 36px;
+  font-size: 28px;
+}
+
+img.logo {
+  height: 100px;
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 12px;
+}
+
+.section {
+  margin-bottom: 48px;
+}
+
+.subsection {
+  display: inline-block;
+  width: 45%;
+}
+
+.instructor-section {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.instructor {
+  display: inline-block;
+  text-align: center;
+  margin-right: 24px;
+}
+
+.instructor:hover {
+  opacity: 0.5;
+}
+
+.instructor img {
+  height: 136px;
+  border-radius: 68px;
+}
+
+table.schedule {
+  border: 0;
+}
+
+table.schedule tr th {
+  border-width: 0px;
+  border-top-width: 1px;
+}
+
+table.schedule tr td {
+  border-width: 0px;
+  border-top-width: 1px;
+  background-color: #fdfdfd;
+  padding: 8px 12px; /* top/bottom, left/right */
+}
+
+table.schedule tr.event-lecture td {
+
+}
+
+table.schedule tr.event-assignment td {
+  background-color: #ffeeba;
+  border-color: #ffdf7e;
+}
+
+table.schedule tr.event-exam td {
+  background-color: #f5c6cb;
+  border-color: #ed969e;
+}
+
+table.schedule tr.event-special td {
+  background-color: #bee5eb;
+  border-color: #86cfda;
+}
+
